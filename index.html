@@ -2,12 +2,14 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Interactive Navigation Menu</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Interactive Navbar</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav class="navbar" id="navbar">
+
+  <!-- 🔹 Navbar Section -->
+  <nav class="navbar">
     <ul class="nav-links">
       <li><a href="#">Home</a></li>
       <li><a href="#">About</a></li>
@@ -16,10 +18,36 @@
     </ul>
   </nav>
 
+  <!-- 🔸 Page Content -->
   <div class="content">
-    <h1>Welcome to My Website</h1>
-    <p>Scroll down to see the navbar style change...</p>
-    <p style="margin-top: 1000px;">End of content</p>
+    <h1>Welcome to My Nature Website</h1>
+    <p>Scroll to see navbar color change. Hover to see link highlight.</p>
+
+    <!-- 🖼️ Natural Image -->
+    <img src="https://images.unsplash.com/photo-1506744038136-46273834b3fb" 
+     alt="Beautiful Nature"" alt="Beautiful Nature" class="banner-img" />
+     <section class="devices-section">
+  <h2>Our Smart Devices</h2>
+  <p>We offer a range of modern smart devices designed to improve everyday life, from home automation to fitness tracking.</p>
+
+  <div class="device-list">
+    <div class="device">
+      <h3>Smart Light</h3>
+      <p>Automate your home lighting system and save energy effortlessly.</p>
+    </div>
+    <div class="device">
+      <h3>Health Tracker</h3>
+      <p>Monitor your health and stay fit with our wearable technology.</p>
+    </div>
+    <div class="device">
+      <h3>Voice Assistant</h3>
+      <p>Control your devices and get answers using simple voice commands.</p>
+    </div>
+  </div>
+</section>
+
+    <!-- Extra space to scroll -->
+    <div style="height: 100px;"></div>
   </div>
 
   <script src="script.js"></script>
