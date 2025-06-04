@@ -1,3 +1,4 @@
+/* Reset & Base */
 body, ul 
 {
   margin: 0;
@@ -5,25 +6,32 @@ body, ul
   box-sizing: border-box;
 }
 
+body 
+{
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar Style */
 .navbar
 {
   position: fixed;
   top: 0;
   width: 100%;
-  background-color: #333;
+  background-color: #003366; /* 🔵 Before Scroll */
   padding: 15px 20px;
   transition: background-color 0.3s ease;
   z-index: 1000;
 }
 
-.nav-links
+/* Navbar Links */
+.nav-links 
 {
   list-style: none;
   display: flex;
   justify-content: center;
 }
 
-.nav-links li
+.nav-links li 
 {
   margin: 0 15px;
 }
@@ -38,17 +46,28 @@ body, ul
 
 .nav-links a:hover 
 {
-  color: #ffd700;
+  color: #FFD700; /* 🟡 Hover */
 }
 
+/* Scrolled Class */
 .scrolled 
 {
-  background-color: #111;
+  background-color: #228B22; /* 🟢 After Scroll */
 }
 
+/* Content Styling */
 .content 
 {
-  margin-top: 80px;
+  margin-top: 90px;
   padding: 20px;
-  font-family: sans-serif;
+}
+
+/* Image Styling */
+.banner-img
+{
+  width: 100%;
+  max-height: 400px;
+  object-fit: cover;
+  margin-top: 20px;
+  border-radius: 10px;
 }
